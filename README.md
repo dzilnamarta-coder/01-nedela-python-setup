@@ -1,5 +1,5 @@
 # 01-nedela-python-setup
-# Mans pirmais Python projekts 🚀
+# Mans pirmais Python projekts 
 Šeit es mācos programmēt un lietot Git.
 
 ## Ko es iemācījos:

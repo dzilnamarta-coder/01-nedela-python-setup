@@ -1,0 +1,36 @@
+Pirmais variants:
+Sākums: Ieiet vannasistabā.
+Paņemt zobu suku.
+Paņemt zobu pastas tūbiņu.
+Lēmums: Vai tūbiņā ir pasta?
+JA NĒ: Meklēt jaunu tūbiņu vai beigt procesu (zobus nevar iztīrīt bez pastas).
+JA JĀ: Noskrūvēt vāciņu un uzspiest pastu uz sukas.
+Atgriezt ūdens krānu.
+Samitrināt suku.
+Aizgriezt ūdens krānu.
+Tīrīt zobus ar apļveida kustībām 2 minūtes.
+Lēmums: Vai ir pagājušas 2 minūtes?
+JA NĒ: Turpināt tīrīšanu.
+JA JĀ: Pārtraukt tīrīšanu.
+Atgriezt krānu un noskaloju muti un suku.
+Nolikt suku un pastu vietā.
+Beigas: Process pabeigts.
+
+Otrais variants:
+Sākums: Pieiet pie tējkannas.
+Lēmums: Vai tējkannā ir pietiekami ūdens?
+JA NĒ: Piepildīt tējkannu ar ūdeni.
+JA JĀ: Turpināt.
+Ieslēgt tējkannu.
+Paņemt krūzi no skapīša.
+Ielikt krūzē tējas paciņu.
+Lēmums: Vai tējkanna ir uzvārījusies (izslēgusies)?
+JA NĒ: Gaidīt.
+JA JĀ: Turpināt.
+Apliet tējas paciņu krūzē ar karsto ūdeni.
+Gaidīt 3 minūtes (ievilkšanās laiks).
+Izņemt tējas paciņu un izmest to.
+Lēmums: Vai vēlos tēju ar medu?
+JA JĀ: Pievienot karoti ķiršu medus un samaisīt.
+JA NĒ: Turpināt.
+Beigas: Tēja ir gatava baudīšanai.

@@ -1,0 +1,56 @@
+Pseido -  kods + "Skatīt diagrammu failā diagramma.jpg"
+SĀKT Sviestmaizes_Process
+
+  // Sagatavošanās posms
+  ATVĒRT virtuves atvilktni
+  IZŅEMT šķīvi un NOLIKT to uz galda virsmas
+  ATVĒRT virtuves atvilktni
+  IZŅEMT nazi un NOLIKT to uz galda virsmas
+  
+  // Maizes sagatavošana
+  PAŅEMT maizes iepakojumu
+  ATVĒRT maizes iepakojumu
+  IZŅEMT vienu maizes šķēli un NOVIETOT to uz šķīvja
+  NOLIKT maizes iepakojumu
+
+  // 1. Lēmums: Grauzdēšana
+  IF maize_ir_jāgrauzdē == JĀ THEN
+    IELIKT maizi tosterī
+    PAGAIDĪT
+    IZŅEMT maizi no tostera
+    NOVIETOT atpakaļ uz šķīvja
+  ELSE
+    TURPINĀT (bez grauzdēšanas)
+  END IF
+
+  // Sviesta smērēšana
+  ATVĒRT ledusskapi
+  IZŅEMT sviestu
+  AIZVĒRT ledusskapi
+  ATVĒRT sviesta iepakojumu
+  UZSMĒRĒT nedaudz sviesta uz naža
+  AR NAZI UZSMĒRĒT sviestu uz maizes (uz šķīvja)
+  
+  // Sviesta nolikšana
+  ATVĒRT ledusskapi
+  NOLIKT sviestu atpakaļ
+  AIZVĒRT ledusskapi
+
+  // 2. Lēmums: Tomāts
+  IF likt_tomātu_pa_virsu == JĀ THEN
+    ATVĒRT ledusskapi
+    PAŅEMT tomātu
+    AIZVĒRT ledusskapi
+    NOMAZGĀT tomātu
+    NOGRIEZT šķēli
+    UZLIKT tomāta šķēli uz maizes
+    
+    // Pēc tomāta pielikšanas sakārtošana
+    ATVĒRT ledusskapi
+    NOLIKT tomātu atpakaļ
+    AIZVĒRT ledusskapi
+  ELSE
+    TURPINĀT (bez tomāta)
+  END IF
+
+BEIGAS
